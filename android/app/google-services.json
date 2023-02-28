@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49725548961",
+    "project_id": "leavemanagement-ddb45",
+    "storage_bucket": "leavemanagement-ddb45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49725548961:android:2a413e5ab97303473e43e0",
+        "android_client_info": {
+          "package_name": "com.smartreach.leavemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49725548961-nu9n8dee553088v9urk505v0jgk6u1re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjvEvqhw0-exV5twAXgDj1zJ4Gao4qK0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49725548961-nu9n8dee553088v9urk505v0jgk6u1re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
