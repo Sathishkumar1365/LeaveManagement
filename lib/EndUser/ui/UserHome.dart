@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:badges/badges.dart';
+//import 'package:badges/badges.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:leavemanagement/EndUser/ui/permissionNotify.dart';
@@ -191,7 +191,7 @@ class _UserHomeState extends State<UserHome> {
                                     });
                                   },
                                 ),
-                                actions: [
+                                /*actions: [
                                   Badge(
                                     toAnimate: true,
                                     position: BadgePosition(top: 18,end: 4),
@@ -207,7 +207,7 @@ class _UserHomeState extends State<UserHome> {
                                   SizedBox(
                                       width:13
                                   )
-                                ],
+                                ],*/
                               ),
                               body: pages[currentpage],
                               bottomNavigationBar: bottomnav(context),
