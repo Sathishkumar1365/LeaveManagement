@@ -236,7 +236,7 @@ class _AdminHomeState extends State<AdminHome> {
               leading: Icon(
                 Icons.timer,color: Colors.black,
               ),
-              trailing: Badge(toAnimate: true,
+              /*trailing: Badge(toAnimate: true,
                 badgeContent: FutureBuilder(
                     future: FirebaseFirestore.instance.collection('permission').count().get(),
                     builder: (context,snapshot){
@@ -244,7 +244,7 @@ class _AdminHomeState extends State<AdminHome> {
                         return Text('0',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 14,color: Colors.white));
                       }
                       int rcount=snapshot.data!.count;
-                      return Text('$rcount',style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.bold));}),
+                      return Text('$rcount',style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.bold));}),*/
                 position: BadgePosition(top: 15,end: 2),
 
                 badgeColor: Colors.red,
@@ -262,7 +262,7 @@ class _AdminHomeState extends State<AdminHome> {
               leading: Icon(
                 Icons.wallet_travel_outlined,color: Colors.black,
               ),
-              trailing: Badge(toAnimate: true,
+              /*trailing: Badge(toAnimate: true,
                 badgeContent: FutureBuilder(
                     future: FirebaseFirestore.instance.collection('emergencyleave').count().get(),
                     builder: (context,snapshot){
@@ -270,7 +270,7 @@ class _AdminHomeState extends State<AdminHome> {
                         return Text('0',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 14,color: Colors.white));
                       }
                       int rcount=snapshot.data!.count;
-                      return Text('$rcount',style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.bold));}),
+                      return Text('$rcount',style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.bold));}),*/
                 position: BadgePosition(top: 15,end: 2),
 
                 badgeColor: Colors.red,
