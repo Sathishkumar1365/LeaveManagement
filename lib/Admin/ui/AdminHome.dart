@@ -66,36 +66,7 @@ class _AdminHomeState extends State<AdminHome> {
         systemOverlayStyle: SystemUiOverlayStyle(statusBarColor: Colors.black,statusBarIconBrightness: Brightness.light,statusBarBrightness: Brightness.dark),
         backgroundColor: Colors.black,
         leading: InkWell(child: Icon(Icons.sort,size: 30,color: Colors.white,),onTap: (){_scaffoldKey.currentState!.openDrawer();},),
-        /*actions: [
-          InkWell(
-            onTap:(){
-              Navigator.push(context, PageTransition(duration:Duration(seconds: 1),child: AdminNotifications(), type: PageTransitionType.rightToLeft));
-           },
-            child: Badge(
-              toAnimate: true,
-              badgeContent: FutureBuilder(
-            future: FirebaseFirestore.instance.collection('leave').count().get(),
-            builder: (context,snapshot){
-              if(!snapshot.hasData){
-                return Text('0',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 14,color: Colors.white));
-              }
-              int rcount=snapshot.data!.count;
-              return Text('$rcount',style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.bold));}),
-              position: BadgePosition(top: 15,end: 2),
-              badgeColor: Colors.red,
-              shape: BadgeShape.circle,
-              child: InkWell(
-                child: Icon(Icons.notifications,size:40,color: Colors.white,),
-                onTap: (){
-                  Navigator.push(context, PageTransition(duration:Duration(seconds: 1),child: AdminNotifications(), type: PageTransitionType.rightToLeft));
-                },
-              ),
-            ),
-          ),
-          SizedBox(
-              width:13
-          )
-        ],*/
+        
 
       ),
       body: IndexedStack(
