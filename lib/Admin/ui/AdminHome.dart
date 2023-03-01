@@ -9,7 +9,7 @@ import 'package:leavemanagement/Admin/ui/permission.dart';
 import '../widgets/AddEmployee.dart';
 import '../widgets/AdminHomeScreen.dart';
 import '../widgets/SearchEmp.dart';
-import 'package:badges/badges.dart';
+//import 'package:badges/badges.dart';
 import 'package:page_transition/page_transition.dart';
 
 import 'AdminAnnouncement.dart';
@@ -66,7 +66,7 @@ class _AdminHomeState extends State<AdminHome> {
         systemOverlayStyle: SystemUiOverlayStyle(statusBarColor: Colors.black,statusBarIconBrightness: Brightness.light,statusBarBrightness: Brightness.dark),
         backgroundColor: Colors.black,
         leading: InkWell(child: Icon(Icons.sort,size: 30,color: Colors.white,),onTap: (){_scaffoldKey.currentState!.openDrawer();},),
-        actions: [
+        /*actions: [
           InkWell(
             onTap:(){
               Navigator.push(context, PageTransition(duration:Duration(seconds: 1),child: AdminNotifications(), type: PageTransitionType.rightToLeft));
@@ -95,7 +95,7 @@ class _AdminHomeState extends State<AdminHome> {
           SizedBox(
               width:13
           )
-        ],
+        ],*/
 
       ),
       body: IndexedStack(
